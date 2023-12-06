@@ -15,3 +15,4 @@
 /tests/integration/MANIFEST
 
 __pycache__
+.DS_Store

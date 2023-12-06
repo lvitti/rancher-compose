@@ -9,7 +9,7 @@ Binaries are available for Linux, OS X, and Windows. Refer to the latest [releas
 ## Building
 Run `make build` to create `./bin/rancher-compose`
 
-multi-arch
+Cross Build
 
 Run `CROSS=true make build`
 
