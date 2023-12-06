@@ -30,7 +30,3 @@ if [ -n "$CROSS" ]; then
 else
     go build -ldflags="-w -X github.com/rancher/rancher-compose/version.VERSION=$VERSION" -o bin/rancher-compose
 fi
-
-if [ ! -e bin/rancher-compose-executor ]; then
-    ln -s rancher-compose bin/rancher-compose-executor
-fi
